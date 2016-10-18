@@ -1,5 +1,4 @@
 library(ggthemes); library(stringr);library(reshape2);library(rstan); library(dplyr); library(ggplot2); library(Quandl);
-Quandl.api_key("BrfAiD2VDaxQEw2zgEfQ")
 
 GNP <- Quandl("FRED/GNP") %>%
   mutate(DATE = as.Date(DATE)) %>% 
