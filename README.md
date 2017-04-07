@@ -1,2 +1,2 @@
 # RegimeSwitch
-Regime Switching Model in RStan
+Hamilton Regime Switching Model in RStan
